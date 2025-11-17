@@ -1,0 +1,339 @@
+[
+    {
+      "pregunta": "¿Quién dirigió la película 'Inception'?",
+      "opciones": ["Steven Spielberg", "Christopher Nolan", "James Cameron", "Martin Scorsese"],
+      "respuesta": "Christopher Nolan",
+      "categoria": "Directores y Creadores"
+    },
+    {
+      "pregunta": "¿En qué año se estrenó la primera película de 'Harry Potter'?",
+      "opciones": ["1999", "2001", "2005", "2010"],
+      "respuesta": "2001",
+      "categoria": "Adaptaciones Cinematográficas"
+    },
+    {
+      "pregunta": "¿Cuál es el nombre del protagonista en 'Volver al Futuro'?",
+      "opciones": ["Marty McFly", "Doc Brown", "Biff Tannen", "George McFly"],
+      "respuesta": "Marty McFly",
+      "categoria": "Películas Clásicas y Contemporáneas"
+    },
+    {
+      "pregunta": "¿Qué actor interpretó a Jack Dawson en 'Titanic'?",
+      "opciones": ["Leonardo DiCaprio", "Brad Pitt", "Johnny Depp", "Matt Damon"],
+      "respuesta": "Leonardo DiCaprio",
+      "categoria": "Actores y Actrices"
+    },
+    {
+      "pregunta": "¿Cómo se llama el personaje de Johnny Depp en 'Piratas del Caribe'?",
+      "opciones": ["Will Turner", "Jack Sparrow", "Davy Jones", "Hector Barbossa"],
+      "respuesta": "Jack Sparrow",
+      "categoria": "Películas Clásicas y Contemporáneas"
+    },
+    {
+      "pregunta": "¿Cuál de estas películas NO fue dirigida por Quentin Tarantino?",
+      "opciones": ["Pulp Fiction", "Kill Bill", "Bastardos sin Gloria", "El Club de la Pelea"],
+      "respuesta": "El Club de la Pelea",
+      "categoria": "Directores y Creadores"
+    },
+    {
+      "pregunta": "¿En qué saga aparece el personaje de Legolas?",
+      "opciones": ["Harry Potter", "El Señor de los Anillos", "Star Wars", "Game of Thrones"],
+      "respuesta": "El Señor de los Anillos",
+      "categoria": "Adaptaciones Cinematográficas"
+    },
+    {
+      "pregunta": "¿Cuál es la película animada con la mayor recaudación de la historia?",
+      "opciones": ["Frozen", "El Rey León (2019)", "Toy Story 4", "Los Increíbles 2"],
+      "respuesta": "El Rey León (2019)",
+      "categoria": "Citas y Curiosidades del Cine"
+    },
+    {
+      "pregunta": "¿Quién interpretó a la Mujer Maravilla en la película de 2017?",
+      "opciones": ["Scarlett Johansson", "Gal Gadot", "Margot Robbie", "Anne Hathaway"],
+      "respuesta": "Gal Gadot",
+      "categoria": "Actores y Actrices"
+    },
+    {
+      "pregunta": "¿Cuál fue la primera película de Pixar?",
+      "opciones": ["Buscando a Nemo", "Monsters Inc.", "Toy Story", "Los Increíbles"],
+      "respuesta": "Toy Story",
+      "categoria": "Películas Clásicas y Contemporáneas"
+    },
+    {
+      "pregunta": "¿Cómo se llama el villano principal en 'El Rey León'?",
+      "opciones": ["Scar", "Mufasa", "Shere Khan", "Jafar"],
+      "respuesta": "Scar",
+      "categoria": "Películas Clásicas y Contemporáneas"
+    },
+    {
+      "pregunta": "¿Cuál es el nombre del planeta natal de Superman?",
+      "opciones": ["Krypton", "Marte", "Tatooine", "Asgard"],
+      "respuesta": "Krypton",
+      "categoria": "Adaptaciones Cinematográficas"
+    },
+    {
+      "pregunta": "¿Quién es el director de 'El Laberinto del Fauno'?",
+      "opciones": ["Guillermo del Toro", "Alejandro González Iñárritu", "Alfonso Cuarón", "Pedro Almodóvar"],
+      "respuesta": "Guillermo del Toro",
+      "categoria": "Directores y Creadores"
+    },
+    {
+      "pregunta": "¿Cómo se llama el droide de Star Wars que acompaña a Luke Skywalker?",
+      "opciones": ["BB-8", "C-3PO", "R2-D2", "IG-88"],
+      "respuesta": "R2-D2",
+      "categoria": "Películas Clásicas y Contemporáneas"
+    },
+    {
+      "pregunta": "¿Qué color es la píldora que elige Neo en 'The Matrix'?",
+      "opciones": ["Roja", "Azul", "Verde", "Negra"],
+      "respuesta": "Roja",
+      "categoria": "Citas y Curiosidades del Cine"
+    },
+    {
+      "pregunta": "¿En qué ciudad transcurre la mayor parte de 'El Padrino'?",
+      "opciones": ["Nueva York", "Chicago", "Las Vegas", "Los Ángeles"],
+      "respuesta": "Nueva York",
+      "categoria": "Películas Clásicas y Contemporáneas"
+    },
+    {
+      "pregunta": "¿Cómo se llama el payaso en 'It'?",
+      "opciones": ["Pennywise", "Joker", "Bozo", "Krusty"],
+      "respuesta": "Pennywise",
+      "categoria": "Adaptaciones Cinematográficas"
+    },
+    {
+      "pregunta": "¿Cuál es el verdadero nombre de Darth Vader?",
+      "opciones": ["Anakin Skywalker", "Luke Skywalker", "Obi-Wan Kenobi", "Kylo Ren"],
+      "respuesta": "Anakin Skywalker",
+      "categoria": "Citas y Curiosidades del Cine"
+    },
+    {
+      "pregunta": "¿Quién interpretó a Joker en 'El Caballero de la Noche'?",
+      "opciones": ["Joaquin Phoenix", "Jack Nicholson", "Heath Ledger", "Jared Leto"],
+      "respuesta": "Heath Ledger",
+      "categoria": "Actores y Actrices"
+    },
+    {
+      "pregunta": "¿Cuál es el nombre del hotel en 'El Resplandor'?",
+      "opciones": ["Overlook", "Bates Motel", "Stanley", "Continental"],
+      "respuesta": "Overlook",
+      "categoria": "Citas y Curiosidades del Cine"
+    },
+    {
+      "pregunta": "¿Qué película popularizó la frase 'Yo soy tu padre'?",
+      "opciones": ["Star Wars: El Imperio Contraataca", "Star Wars: Una Nueva Esperanza", "El Señor de los Anillos", "Matrix"],
+      "respuesta": "Star Wars: El Imperio Contraataca",
+      "categoria": "Citas y Curiosidades del Cine"
+    },
+    {
+      "pregunta": "¿Qué actriz protagoniza 'Kill Bill'?",
+      "opciones": ["Uma Thurman", "Angelina Jolie", "Lucy Liu", "Charlize Theron"],
+      "respuesta": "Uma Thurman",
+      "categoria": "Actores y Actrices"
+    },
+    {
+      "pregunta": "¿Cómo se llama la inteligencia artificial en '2001: Odisea del Espacio'?",
+      "opciones": ["HAL 9000", "Skynet", "J.A.R.V.I.S.", "GLaDOS"],
+      "respuesta": "HAL 9000",
+      "categoria": "Citas y Curiosidades del Cine"
+    },
+    {
+      "pregunta": "¿En qué película se escucha 'Hakuna Matata'?",
+      "opciones": ["El Rey León", "Aladdín", "Tarzán", "Mulán"],
+      "respuesta": "El Rey León",
+      "categoria": "Citas y Curiosidades del Cine"
+    },
+    {
+      "pregunta": "¿Cuál es el nombre del monstruo en 'Cloverfield'?",
+      "opciones": ["No tiene nombre", "Godzilla", "Kraken", "Gorgo"],
+      "respuesta": "No tiene nombre",
+      "categoria": "Citas y Curiosidades del Cine"
+    },
+    {
+      "pregunta": "¿Quién interpretó a Jack Dawson en la película 'Titanic'?",
+      "opciones": ["Leonardo DiCaprio", "Brad Pitt", "Tom Hanks", "Johnny Depp"],
+      "respuesta": "Leonardo DiCaprio",
+      "categoria": "Actores y Actrices"
+    },
+    {
+      "pregunta": "¿Quién dirigió la película 'Pulp Fiction'?",
+      "opciones": ["Quentin Tarantino", "Martin Scorsese", "Steven Spielberg", "Francis Ford Coppola"],
+      "respuesta": "Quentin Tarantino",
+      "categoria": "Directores y Creadores"
+    },
+    {
+      "pregunta": "¿Cuál es la película que obtuvo el Oscar a Mejor Película en 1994?",
+      "opciones": ["Forrest Gump", "Pulp Fiction", "La Lista de Schindler", "Cadena perpetua"],
+      "respuesta": "Forrest Gump",
+      "categoria": "Premios y Festivales de Cine"
+    },
+    {
+      "pregunta": "¿Qué actor interpretó al Joker en 'The Dark Knight'?",
+      "opciones": ["Heath Ledger", "Joaquin Phoenix", "Jared Leto", "Jack Nicholson"],
+      "respuesta": "Heath Ledger",
+      "categoria": "Actores y Actrices"
+    },
+    {
+      "pregunta": "¿En qué película se dice 'Hasta la vista, baby'?",
+      "opciones": ["Terminator 2", "Predator", "Die Hard", "Total Recall"],
+      "respuesta": "Terminator 2",
+      "categoria": "Citas y Curiosidades del Cine"
+    },
+    {
+      "pregunta": "¿Qué director es reconocido por la película 'El Resplandor'?",
+      "opciones": ["Stanley Kubrick", "Alfred Hitchcock", "Ridley Scott", "David Fincher"],
+      "respuesta": "Stanley Kubrick",
+      "categoria": "Directores y Creadores"
+    },
+    {
+      "pregunta": "¿Cuál es la primera película de animación producida por Disney?",
+      "opciones": ["Blancanieves y los siete enanitos", "Cenicienta", "La Bella Durmiente", "Bambi"],
+      "respuesta": "Blancanieves y los siete enanitos",
+      "categoria": "Películas Clásicas y Contemporáneas"
+    },
+    {
+      "pregunta": "¿Qué película de ciencia ficción fue dirigida por Ridley Scott y es conocida por su atmósfera futurista?",
+      "opciones": ["Blade Runner", "Matrix", "Minority Report", "El Quinto Elemento"],
+      "respuesta": "Blade Runner",
+      "categoria": "Películas Clásicas y Contemporáneas"
+    },
+    {
+      "pregunta": "¿Qué película marca el inicio de la saga 'Star Wars'?",
+      "opciones": ["Una nueva esperanza", "El imperio contraataca", "El retorno del Jedi", "La amenaza fantasma"],
+      "respuesta": "Una nueva esperanza",
+      "categoria": "Películas Clásicas y Contemporáneas"
+    },
+    {
+      "pregunta": "¿Qué película biográfica protagoniza a Jamie Foxx como Ray Charles?",
+      "opciones": ["Ray", "Cadena perpetua", "Dreamgirls", "La terminal"],
+      "respuesta": "Ray",
+      "categoria": "Películas Clásicas y Contemporáneas"
+    },
+    {
+      "pregunta": "¿Quién dirigió la película 'Amélie'?",
+      "opciones": ["Jean-Pierre Jeunet", "Luc Besson", "François Truffaut", "Claude Chabrol"],
+      "respuesta": "Jean-Pierre Jeunet",
+      "categoria": "Directores y Creadores"
+    },
+    {
+      "pregunta": "¿Qué película francesa ganó la Palma de Oro en el Festival de Cannes en 2013?",
+      "opciones": ["La Vie d'Adèle", "Intouchables", "Les Choristes", "La Haine"],
+      "respuesta": "La Vie d'Adèle",
+      "categoria": "Premios y Festivales de Cine"
+    },
+    {
+      "pregunta": "¿Cuál es la primera película de Satyajit Ray que marcó el inicio de la trilogía de Apu?",
+      "opciones": ["Pather Panchali", "Aparajito", "Apur Sansar", "Charulata"],
+      "respuesta": "Pather Panchali",
+      "categoria": "Películas Clásicas y Contemporáneas"
+    },
+    {
+      "pregunta": "¿Quién dirigió la película de animación 'El viaje de Chihiro'?",
+      "opciones": ["Hayao Miyazaki", "Isao Takahata", "Satoshi Kon", "Mamoru Hosoda"],
+      "respuesta": "Hayao Miyazaki",
+      "categoria": "Directores y Creadores"
+    },
+    {
+      "pregunta": "¿Cuál es el estudio de animación responsable de 'Mi vecino Totoro'?",
+      "opciones": ["Studio Ghibli", "Toei Animation", "Sunrise", "Madhouse"],
+      "respuesta": "Studio Ghibli",
+      "categoria": "Citas y Curiosidades del Cine"
+    },
+    {
+      "pregunta": "¿Qué director iraní es reconocido por la película 'Una Separación'?",
+      "opciones": ["Asghar Farhadi", "Abbas Kiarostami", "Jafar Panahi", "Majid Majidi"],
+      "respuesta": "Asghar Farhadi",
+      "categoria": "Directores y Creadores"
+    },
+    {
+      "pregunta": "¿En qué película de Federico Fellini aparece la icónica escena en la Fontana de Trevi?",
+      "opciones": ["La Dolce Vita", "8½", "Amarcord", "La Strada"],
+      "respuesta": "La Dolce Vita",
+      "categoria": "Películas Clásicas y Contemporáneas"
+    },
+    {
+      "pregunta": "¿Quién dirigió la película 'Aguirre, la cólera de Dios'?",
+      "opciones": ["Werner Herzog", "Rainer Werner Fassbinder", "Wim Wenders", "Volker Schlöndorff"],
+      "respuesta": "Werner Herzog",
+      "categoria": "Directores y Creadores"
+    },
+    {
+      "pregunta": "¿Qué película argentina ganó el Oscar a la Mejor Película Extranjera en 2010?",
+      "opciones": ["El secreto de sus ojos", "Nueve reinas", "Relatos salvajes", "La historia oficial"],
+      "respuesta": "El secreto de sus ojos",
+      "categoria": "Premios y Festivales de Cine"
+    },
+    {
+      "pregunta": "¿Qué película surcoreana dirigida por Bong Joon-ho ganó la Palma de Oro en el Festival de Cannes en 2019?",
+      "opciones": ["Parasite", "Oldboy", "Snowpiercer", "The Handmaiden"],
+      "respuesta": "Parasite",
+      "categoria": "Premios y Festivales de Cine"
+    },
+    {
+      "pregunta": "¿Qué película es una adaptación de la novela 'Matar a un ruiseñor'?",
+      "opciones": ["Matar a un ruiseñor", "El Camino de los Inocentes", "Justicia Ciega", "El Silencio de los Inocentes"],
+      "respuesta": "Matar a un ruiseñor",
+      "categoria": "Adaptaciones Cinematográficas"
+    },
+    {
+      "pregunta": "¿Qué película de terror clásica dirigida por Alfred Hitchcock, estrenada en 1960, es famosa por su escena de la ducha?",
+      "opciones": ["Psicosis", "Los Pájaros", "Vértigo", "La ventana indiscreta"],
+      "respuesta": "Psicosis",
+      "categoria": "Películas Clásicas y Contemporáneas"
+    },
+    {
+      "pregunta": "¿Qué película de animación de Disney, basada en un cuento de Hans Christian Andersen, narra la historia de una sirena que sueña con vivir en tierra?",
+      "opciones": ["La Sirenita", "La Bella y la Bestia", "Mulán", "Frozen"],
+      "respuesta": "La Sirenita",
+      "categoria": "Adaptaciones Cinematográficas"
+    },
+    {
+      "pregunta": "¿Qué director culto por sus obras surrealistas dirigió 'El Topo'?",
+      "opciones": ["Alejandro Jodorowsky", "David Lynch", "Stanley Kubrick", "Federico Fellini"],
+      "respuesta": "Alejandro Jodorowsky",
+      "categoria": "Directores y Creadores"
+    },
+    {
+      "pregunta": "¿Qué actor se destacó en 'Gladiator' y ganó el Oscar por su interpretación?",
+      "opciones": ["Russell Crowe", "Joaquin Phoenix", "Tom Hardy", "Mel Gibson"],
+      "respuesta": "Russell Crowe",
+      "categoria": "Actores y Actrices"
+    },
+    {
+      "pregunta": "¿Qué película de Quentin Tarantino, ambientada en la Segunda Guerra Mundial, se caracteriza por su narrativa y elenco, y se titula 'Inglourious Basterds'?",
+      "opciones": ["Reservoir Dogs", "Inglourious Basterds", "Pulp Fiction", "Jackie Brown"],
+      "respuesta": "Inglourious Basterds",
+      "categoria": "Directores y Creadores"
+    },
+    {
+      "pregunta": "¿Qué festival de cine, considerado uno de los más prestigiosos a nivel internacional, se celebra anualmente en Francia?",
+      "opciones": ["Festival de Venecia", "Festival de Cannes", "Festival de Berlín", "Sundance Film Festival"],
+      "respuesta": "Festival de Cannes",
+      "categoria": "Premios y Festivales de Cine"
+    },
+    {
+      "pregunta": "¿Qué género cinematográfico se caracteriza por representar intensas emociones y conflictos familiares?",
+      "opciones": ["Ciencia ficción", "Comedia", "Drama", "Terror"],
+      "respuesta": "Drama",
+      "categoria": "Géneros Cinematográficos"
+    },
+    {
+      "pregunta": "¿Qué película basada en una obra de Shakespeare protagonizada por Laurence Olivier ganó premios en la década de 1940?",
+      "opciones": ["Hamlet", "Macbeth", "Romeo y Julieta", "El rey Lear"],
+      "respuesta": "Hamlet",
+      "categoria": "Adaptaciones Cinematográficas"
+    },
+    {
+      "pregunta": "¿Qué película de Steven Spielberg, estrenada en 1975, revolucionó el cine de terror al presentar la amenaza de un gran tiburón blanco?",
+      "opciones": ["Tiburón", "E.T., el extraterrestre", "Encuentros cercanos", "Poltergeist"],
+      "respuesta": "Tiburón",
+      "categoria": "Películas Clásicas y Contemporáneas"
+    },
+    {
+      "pregunta": "¿Qué actor ganó fama internacional por interpretar al 'Padrino' en la icónica saga dirigida por Francis Ford Coppola?",
+      "opciones": ["Al Pacino", "Robert De Niro", "Marlon Brando", "James Caan"],
+      "respuesta": "Marlon Brando",
+      "categoria": "Actores y Actrices"
+    }
+  ]
+  

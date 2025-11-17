@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trivia de Cine</title>
+  <meta name="application-name" content="Trivia de Cine" />
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#10121a" />
+  <link rel="icon" href="icons/icon-96x96.png" sizes="96x96" type="image/png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1 id="appTitle">Trivia de Cine</h1>
+  </header>
+
+  <main id="app" role="main" aria-labelledby="appTitle">
+    <!-- Menú principal -->
+    <section id="menu" aria-label="Menú principal">
+      <div class="stack">
+        <button id="randomBtn" type="button">Trivia Aleatoria</button>
+        <button id="categoryBtn" type="button">Elegir Categoría</button>
+        <div class="question-settings">
+          <label for="questionCount">Número de preguntas:</label>
+          <select id="questionCount" class="select-questions">
+            <option value="5">5</option>
+            <option value="10" selected>10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="all">Todas</option>
+          </select>
+        </div>
+      </div>
+      
+
+
+          <!-- Mensaje de bienvenida -->
+      <p id="welcomeMsg" class="welcome" aria-live="polite">
+        🎬 ¡Bienvenid@! Pon a prueba tus conocimientos de cine.  
+        <span class="welcome-tip">Tip: activa el sonido para una experiencia más divertida 🔊</span>
+      </p>
+      <div class="stack">
+        <label class="toggle">
+          <input id="soundToggle" type="checkbox" />
+          <span>Sonido al responder</span>
+        </label>
+      </div>
+    </section>
+
+    <!-- Menú de selección de categoría -->
+    <section id="categoryMenu" class="hidden" aria-label="Selección de categoría">
+      <h2>Elige una categoría</h2>
+      <div id="categories" class="grid"></div>
+      <div class="actions">
+        <button id="backToMenuBtn" type="button">Volver al Menú</button>
+      </div>
+    </section>
+
+    <!-- Contenedor de Trivia -->
+    <section id="triviaContainer" class="hidden" aria-label="Juego de trivia">
+      <!-- HUD: marcador y progreso -->
+      <div class="hud">
+        <div id="score" aria-live="polite">Puntuación: 0</div>
+        <div id="progress" aria-live="polite"></div>
+      </div>
+
+      <!-- Barra de progreso visual -->
+      <progress id="progressBar" value="0" max="1" aria-label="Progreso de la trivia"></progress>
+
+      <!-- Pregunta + opciones -->
+      <div id="trivia" class="card" aria-live="polite"></div>
+
+      <!-- Feedback accesible -->
+      <div id="feedback" class="visually-hidden" aria-live="assertive"></div>
+
+      <!-- Acciones -->
+      <div class="actions">
+        <button id="nextBtn" class="hidden" type="button">Siguiente pregunta</button>
+        <button id="backToMenuFromTrivia" class="hidden" type="button">Volver al Menú</button>
+      </div>
+    </section>
+
+    <noscript>
+      <p>Esta aplicación necesita JavaScript para funcionar. Activa JavaScript en tu navegador.</p>
+    </noscript>
+  </main>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+          .catch(err => console.error('SW registration failed:', err));
+      });
+    }
+  </script>
+  <script src="trivia.js" defer></script>
+</body>
+</html>
