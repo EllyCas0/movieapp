@@ -43,6 +43,27 @@
   const show  = (el) => el.classList.remove('hidden');
   const hide  = (el) => el.classList.add('hidden');
 
+  let lang = localStorage.getItem('trivia:lang') || 'es';
+  const langSelect = document.querySelector('#langSelect');
+
+  langSelect.value = lang;
+  
+  function applyTranslations() {
+    $('#randomBtn').textContent = i18n[lang].random;
+    $('#categoryBtn').textContent = i18n[lang].category;
+    $('#score').textContent = i18n[lang].score + ': 0';
+    $('#nextBtn').textContent = i18n[lang].next;
+    $('#backToMenuFromTrivia').textContent = i18n[lang].menu;
+    $('#welcomeMsg').textContent = i18n[lang].welcome;
+  }
+
+  langSelect.addEventListener('change', () => {
+    lang = langSelect.value;
+    localStorage.setItem('trivia:lang', lang);
+    loadQuestions();
+    applyTranslations();
+  });
+
   function setView({ showMenu = false, showCategory = false, showTrivia = false }) {
     [menu, categoryMenu, triviaContainer].forEach(hide);
     if (showMenu)     show(menu);
@@ -79,8 +100,9 @@
 
   // ---- Cargar preguntas ----
   async function loadQuestions() {
+    applyTranslations();
     try {
-      const res = await fetch('questions.json');
+      const res = await fetch(`questions.${lang}.json`);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
 
@@ -336,3 +358,4 @@
   // ---- Inicio ----
   window.addEventListener('DOMContentLoaded', loadQuestions);
 })();
+
