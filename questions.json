@@ -334,6 +334,156 @@
       "opciones": ["Al Pacino", "Robert De Niro", "Marlon Brando", "James Caan"],
       "respuesta": "Marlon Brando",
       "categoria": "Actores y Actrices"
+    },
+    {
+      "pregunta": "¿Quién dirigió la película 'Interstellar'?",
+      "opciones": ["Denis Villeneuve", "Christopher Nolan", "Ridley Scott", "Alfonso Cuarón"],
+      "respuesta": "Christopher Nolan",
+      "categoria": "Directores y Creadores"
+    },
+    {
+      "pregunta": "¿Qué actriz interpreta a Katniss Everdeen en 'Los juegos del hambre'?",
+      "opciones": ["Emma Stone", "Jennifer Lawrence", "Scarlett Johansson", "Natalie Portman"],
+      "respuesta": "Jennifer Lawrence",
+      "categoria": "Actores y Actrices"
+    },
+    {
+      "pregunta": "¿En qué año se estrenó la película original 'Jurassic Park'?",
+      "opciones": ["1990", "1993", "1997", "2001"],
+      "respuesta": "1993",
+      "categoria": "Películas Clásicas y Contemporáneas"
+    },
+    {
+      "pregunta": "¿Qué película ganó el Oscar a Mejor Película en 2020 (ceremonia 2020)?",
+      "opciones": ["1917", "Joker", "Parásitos", "Érase una vez en Hollywood"],
+      "respuesta": "Parásitos",
+      "categoria": "Premios y Festivales de Cine"
+    },
+    {
+      "pregunta": "¿Cómo se llama el mago protagonista de 'El Señor de los Anillos' que lidera a la Comunidad?",
+      "opciones": ["Saruman", "Gandalf", "Radagast", "Elrond"],
+      "respuesta": "Gandalf",
+      "categoria": "Adaptaciones Cinematográficas"
+    },
+    {
+      "pregunta": "¿Qué director es conocido por 'Pulp Fiction' y 'Django sin cadenas'?",
+      "opciones": ["Guy Ritchie", "Quentin Tarantino", "David Fincher", "Martin Scorsese"],
+      "respuesta": "Quentin Tarantino",
+      "categoria": "Directores y Creadores"
+    },
+    {
+      "pregunta": "¿Qué actor interpreta a Wolverine en la saga 'X-Men'?",
+      "opciones": ["Hugh Jackman", "Chris Hemsworth", "Robert Downey Jr.", "Tom Hardy"],
+      "respuesta": "Hugh Jackman",
+      "categoria": "Actores y Actrices"
+    },
+    {
+      "pregunta": "¿Qué película se desarrolla casi por completo dentro de un hotel embrujado llamado Overlook?",
+      "opciones": ["El exorcista", "El resplandor", "Poltergeist", "Carrie"],
+      "respuesta": "El resplandor",
+      "categoria": "Películas Clásicas y Contemporáneas"
+    },
+    {
+      "pregunta": "¿Qué película de Pixar cuenta la historia de emociones como Alegría y Tristeza?",
+      "opciones": ["Coco", "Up", "Intensamente", "Ratatouille"],
+      "respuesta": "Intensamente",
+      "categoria": "Películas Clásicas y Contemporáneas"
+    },
+    {
+      "pregunta": "¿Qué actor protagoniza 'Misión: Imposible' como Ethan Hunt?",
+      "opciones": ["Matt Damon", "Tom Cruise", "Keanu Reeves", "Brad Pitt"],
+      "respuesta": "Tom Cruise",
+      "categoria": "Actores y Actrices"
+    },
+    {
+      "pregunta": "¿Cuál es el nombre del tiburón en 'Buscando a Nemo' que intenta no comer peces?",
+      "opciones": ["Bruce", "Anchor", "Chum", "Bloat"],
+      "respuesta": "Bruce",
+      "categoria": "Citas y Curiosidades del Cine"
+    },
+    {
+      "pregunta": "¿Qué película es famosa por la frase 'Que la Fuerza te acompañe'?",
+      "opciones": ["Star Wars", "Matrix", "Blade Runner", "Alien"],
+      "respuesta": "Star Wars",
+      "categoria": "Citas y Curiosidades del Cine"
+    },
+    {
+      "pregunta": "¿Qué director dirigió 'Titanic'?",
+      "opciones": ["James Cameron", "Steven Spielberg", "Peter Jackson", "Ron Howard"],
+      "respuesta": "James Cameron",
+      "categoria": "Directores y Creadores"
+    },
+    {
+      "pregunta": "¿Cuál es el género principal de la película 'El silencio de los inocentes'?",
+      "opciones": ["Comedia romántica", "Terror", "Thriller", "Western"],
+      "respuesta": "Thriller",
+      "categoria": "Géneros Cinematográficos"
+    },
+    {
+      "pregunta": "¿Qué película de 1999 trata sobre una realidad simulada y presenta a Neo?",
+      "opciones": ["Fight Club", "The Matrix", "El proyecto de la bruja de Blair", "El sexto sentido"],
+      "respuesta": "The Matrix",
+      "categoria": "Películas Clásicas y Contemporáneas"
+    },
+    {
+      "pregunta": "¿Qué saga incluye la escuela Hogwarts?",
+      "opciones": ["El Señor de los Anillos", "Harry Potter", "Las crónicas de Narnia", "Percy Jackson"],
+      "respuesta": "Harry Potter",
+      "categoria": "Adaptaciones Cinematográficas"
+    },
+    {
+      "pregunta": "¿Qué película animada presenta a un ogro verde llamado Shrek?",
+      "opciones": ["Shrek", "Kung Fu Panda", "Madagascar", "Monsters, Inc."],
+      "respuesta": "Shrek",
+      "categoria": "Películas Clásicas y Contemporáneas"
+    },
+    {
+      "pregunta": "¿Qué actor interpreta a Iron Man en el Universo Cinematográfico de Marvel?",
+      "opciones": ["Chris Evans", "Robert Downey Jr.", "Mark Ruffalo", "Jeremy Renner"],
+      "respuesta": "Robert Downey Jr.",
+      "categoria": "Actores y Actrices"
+    },
+    {
+      "pregunta": "¿Qué película ganó la Palma de Oro en Cannes en 2019?",
+      "opciones": ["Roma", "Parásitos", "Joker", "1917"],
+      "respuesta": "Parásitos",
+      "categoria": "Premios y Festivales de Cine"
+    },
+    {
+      "pregunta": "¿Qué personaje dice 'Yo soy tu padre' en 'Star Wars'?",
+      "opciones": ["Yoda", "Obi-Wan Kenobi", "Darth Vader", "Luke Skywalker"],
+      "respuesta": "Darth Vader",
+      "categoria": "Citas y Curiosidades del Cine"
+    },
+    {
+      "pregunta": "¿En qué película aparece el personaje Jack Sparrow?",
+      "opciones": ["Piratas del Caribe", "Peter Pan", "Robin Hood", "La momia"],
+      "respuesta": "Piratas del Caribe",
+      "categoria": "Películas Clásicas y Contemporáneas"
+    },
+    {
+      "pregunta": "¿Qué película está basada en una novela de Stephen King y trata de un payaso llamado Pennywise?",
+      "opciones": ["Misery", "It", "Carrie", "El resplandor"],
+      "respuesta": "It",
+      "categoria": "Adaptaciones Cinematográficas"
+    },
+    {
+      "pregunta": "¿Qué actor interpreta a 'El Joker' en 'Joker' (2019)?",
+      "opciones": ["Heath Ledger", "Joaquin Phoenix", "Jared Leto", "Jack Nicholson"],
+      "respuesta": "Joaquin Phoenix",
+      "categoria": "Actores y Actrices"
+    },
+    {
+      "pregunta": "¿Qué película se centra en un anillo que debe ser destruido en el Monte del Destino?",
+      "opciones": ["Harry Potter y la piedra filosofal", "El Hobbit", "El Señor de los Anillos: La Comunidad del Anillo", "Narnia: El león, la bruja y el ropero"],
+      "respuesta": "El Señor de los Anillos: La Comunidad del Anillo",
+      "categoria": "Adaptaciones Cinematográficas"
+    },
+    {
+      "pregunta": "¿Qué director dirigió 'El laberinto del fauno'?",
+      "opciones": ["Alejandro González Iñárritu", "Guillermo del Toro", "Alfonso Cuarón", "Pedro Almodóvar"],
+      "respuesta": "Guillermo del Toro",
+      "categoria": "Directores y Creadores"
     }
   ]
   
