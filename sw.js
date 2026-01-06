@@ -1,5 +1,5 @@
 // Simple cache-first SW with network-first for questions.json
-const CACHE_NAME = 'trivia-pwa-v2'; // antes: v1
+const CACHE_NAME = 'trivia-pwa-v6'; // antes: v2
 const CORE_ASSETS = [
   './',
   './index.html',

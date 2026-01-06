@@ -4,6 +4,12 @@
   let triviaData = [];
   let currentIndex = 0;
   let score = 0;
+  let questionCountEl = null;
+
+  window.addEventListener('DOMContentLoaded', () => {
+    questionCountEl = document.querySelector('#questionCount');
+    loadQuestions();
+  });
 
   // ---- Elementos ----
   const $ = (sel) => document.querySelector(sel);
@@ -17,11 +23,11 @@
   const feedbackEl = $('#feedback');
   const soundToggle = $('#soundToggle');
   const progressBar = $('#progressBar');
-  const questionCountEl = document.querySelector('#questionCount');
+
+  
 
   function getSelectedCount() {
     const raw = parseInt(questionCountEl?.value ?? '0', 10);
-    // 0 o inválido => “Todas”
     if (!Number.isFinite(raw) || raw <= 0) return allQuestions.length;
     return Math.min(raw, allQuestions.length);
   }
@@ -30,6 +36,20 @@
   let soundOn = JSON.parse(localStorage.getItem('trivia:soundOn') ?? 'true'); // por defecto: activado
   let audioCtx = null;
   
+  if (soundToggle) {
+    soundToggle.checked = !!soundOn;
+
+    soundToggle.addEventListener('change', () => {
+      soundOn = soundToggle.checked;
+      localStorage.setItem('trivia:soundOn', JSON.stringify(soundOn));
+
+      // Opcional: cortar audio activo inmediatamente
+      if (!soundOn && audioCtx) {
+        audioCtx.close();
+        audioCtx = null;
+      }
+    });
+  }
 
   // Controles del menú principal
   const randomBtn = $('#randomBtn');
@@ -42,27 +62,6 @@
   // ---- Helpers de visibilidad ----
   const show  = (el) => el.classList.remove('hidden');
   const hide  = (el) => el.classList.add('hidden');
-
-  // let lang = localStorage.getItem('trivia:lang') || 'es';
-  // const langSelect = document.querySelector('#langSelect');
-
-  // langSelect.value = lang;
-  
-  // function applyTranslations() {
-  //   $('#randomBtn').textContent = i18n[lang].random;
-  //   $('#categoryBtn').textContent = i18n[lang].category;
-  //   $('#score').textContent = i18n[lang].score + ': 0';
-  //   $('#nextBtn').textContent = i18n[lang].next;
-  //   $('#backToMenuFromTrivia').textContent = i18n[lang].menu;
-  //   $('#welcomeMsg').textContent = i18n[lang].welcome;
-  // }
-
-  // langSelect.addEventListener('change', () => {
-  //   lang = langSelect.value;
-  //   localStorage.setItem('trivia:lang', lang);
-  //   loadQuestions();
-  //   applyTranslations();
-  // });
 
   function setView({ showMenu = false, showCategory = false, showTrivia = false }) {
     [menu, categoryMenu, triviaContainer].forEach(hide);
@@ -77,7 +76,7 @@
       ? `Pregunta ${Math.min(currentIndex + 1, triviaData.length)} de ${triviaData.length}`
       : '';
 
-    // ⬇️ Progreso visual
+    // ⬇Progreso visual
     if (progressBar) {
       const total = triviaData.length || 1;
       const current = triviaData.length ? Math.min(currentIndex + 1, triviaData.length) : 0;
@@ -322,7 +321,6 @@
       categoriesDiv.appendChild(btn);
     });
   }
-
 
   // ---- Utilidad: barajar ----
   function shuffleArray(arr) {
