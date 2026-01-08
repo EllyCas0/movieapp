@@ -4,6 +4,7 @@
   "description": "Juego de preguntas y respuestas — funciona offline como PWA.",
   "start_url": ".",
   "scope": ".",
+  "orientation": "any",
   "display": "standalone",
   "background_color": "#10121a",
   "theme_color": "#10121a",
