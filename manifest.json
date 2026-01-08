@@ -1,4 +1,5 @@
-{
+{ 
+  "id": "/trivia-cine",
   "name": "Trivia",
   "short_name": "Trivia",
   "description": "Juego de preguntas y respuestas — funciona offline como PWA.",
