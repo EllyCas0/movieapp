@@ -39,5 +39,29 @@
       "sizes": "512x512",
       "type": "image/png"
     }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/screenshot_1.png",
+      "sizes": "1280x708",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Pantalla principal"
+    },
+    {
+      "src": "screenshots/screenshot_2.png",
+      "sizes": "1279x680",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Juego en progreso"
+    },
+    {
+      "src": "screenshots/screenshot_3.png",
+      "sizes": "1065x744",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Categorías"
+    }
   ]
+
 }
