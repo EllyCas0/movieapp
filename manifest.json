@@ -2,6 +2,7 @@
   "id": "/trivia-cine",
   "name": "Trivia de cine",
   "short_name": "Trivia de cine",
+  "lang": "es",
   "description": "Juego de preguntas y respuestas — funciona offline como PWA.",
   "start_url": "https://ellycas0.github.io/movieapp/",
   "scope": ".",
