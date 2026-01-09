@@ -88,7 +88,7 @@
       window.addEventListener('load', async () => {
         try {
           // Cambia el número cuando publiques (v7 -> v8, etc.)
-          const reg = await navigator.serviceWorker.register('./sw.js?v=9');
+          const reg = await navigator.serviceWorker.register('./sw.js?v=10');
           // Opcional: fuerza check de update en cada carga
           reg.update();
         } catch (err) {

@@ -1,6 +1,6 @@
 { 
   "id": "/trivia-cine",
-  "name": "Trivia",
+  "name": "Trivia de cine",
   "short_name": "Trivia",
   "description": "Juego de preguntas y respuestas — funciona offline como PWA.",
   "start_url": ".",
@@ -45,14 +45,14 @@
   "screenshots": [
     {
       "src": "screenshots/screenshot_1.png",
-      "sizes": "1280x708",
+      "sizes": "1279x680",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Pantalla principal"
     },
     {
       "src": "screenshots/screenshot_2.png",
-      "sizes": "1279x680",
+      "sizes": "1280x708",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Juego en progreso"
