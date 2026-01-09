@@ -9,6 +9,11 @@
   "display": "standalone",
   "background_color": "#10121a",
   "theme_color": "#10121a",
+  "categories": [
+    "games",
+    "entertainment",
+    "education"
+  ],
   "icons": [
     {
       "src": "icons/icon-72x72.png",
